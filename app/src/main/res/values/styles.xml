@@ -17,5 +17,6 @@
 <resources>
     <style name="Widget.Words.TextView" parent="Widget.MaterialComponents.TextView">
         <item name="android:textAppearance">?attr/textAppearanceHeadline4</item>
+        <item name="android:fontFamily">sans-self-black</item>
     </style>
 </resources>

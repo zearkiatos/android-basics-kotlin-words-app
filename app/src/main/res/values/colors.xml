@@ -25,4 +25,6 @@
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="purple">#6A0DAD</color>
+    <color name="android_green">#3ddc84</color>
 </resources>

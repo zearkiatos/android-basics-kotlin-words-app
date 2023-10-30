@@ -11,9 +11,8 @@ endif
 	adb shell am start -n "com.example.wordsapp/com.example.wordsapp.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
 
 run-device:
-	make build
+	make build-app
 	sleep 10
-	adb -d install app/build/outputs/apk/debug/app-debug.apk
 	adb shell am start -n "com.example.wordsapp/com.example.wordsapp.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER --splashscreen-show-icon 
 
 list-emulator:
